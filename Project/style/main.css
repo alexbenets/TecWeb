@@ -1,0 +1,135 @@
+/* SEZIONE GENERALE*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearer {
+	clear:both;
+}
+/*SEZIONE HEADER*/
+#header {
+	width: 100%; /* layout fluido*/
+	background-color:#f7fcff;
+}
+#banner {
+	/*background-color:#dddddd;*/
+	height: 10em;
+}
+#banner h1 {
+	text-align:center;
+	color:#00a000;
+}
+#banner h2 {
+	text-align: center;
+	color:#a00000;
+}
+/*FINE SEZIONE HEADER*/
+
+/*SEZIONE MENU'*/
+#menu {
+	height:3em;
+	/*background-color:#C0FFEE;*/
+	padding:0.1em 0.3em 0.4em 0.3em;
+}
+#menu a {
+	/*sezione per il pseudo contenitore*/
+	height:100%;
+	display:block;
+	float:left;
+	margin-left: 0.1em;
+	background-color:#dcddde;	
+	border: 1px solid #000;
+	padding:0 1em 0 1em;
+	/*sezione per il testo interno*/
+	text-decoration:none;
+	color:#000;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:1.2em;
+	line-height:2.4em;
+}
+#menu a:hover {
+	background-color:#e4edf2;
+}
+#menu .selected {
+	/*Indico all'utente quale pagina e' aperta*/
+	background-color:#d2e7f4;
+}
+/*FINE SEZIONE MENU'*/
+
+/*SEZIONE DOVE SEI*/
+#path {
+	height:2em;
+	/*background-color:#3CF;*/
+	padding-left: 0.5em;
+}
+
+
+#path * {
+	/*per tutti i contenuti del div path*/
+	font-size:1em;
+	line-height:1.9em;
+}
+
+#path .separatore_path {
+	/* questo span contiene &gt;, separa le varie sezioni del path*/
+}
+
+#path a {
+	text-decoration:none;
+	color:#000;
+}
+#path a:hover {
+	text-decoration:underline;
+	color:#810808;
+}
+/*FINE SEZIONE DOVE SEI*/
+
+/*INIZIO SEZIONE CONTENUTO PRINCIPALE*/
+#main {
+	
+}
+
+#prenota {
+	width: 60em;
+	margin: 0 auto;
+	background-color:#3cf;
+	padding-bottom:0.5em;
+	padding-top:0.25em;
+}
+#prenota form *{
+	margin-top:0.2em;
+	background-color:#4ff;
+}
+#prenota form label {
+	height:3.5em;
+	margin-left:0.5em;
+	margin-right:0.25em;
+	/*sezione text*/
+	color:#DD0000;
+	line-height:2.5em;
+	font-size:1.5em;
+}
+#prenota form input[type="text"]{
+	height: 3em;
+	width:14em;
+	margin-right:0.5em;
+	padding-left:0.4em;
+	/*sezione text*/
+	color:#000000;
+	font-size:1.1em;
+}
+#prenota form input[type="submit"]{
+	border:1px solid #FFF;
+	width:3.5em;
+	background-color:#FFE;
+	/*sezione text*/
+	font-size:1.8em;
+	line-height:1.8em;
+	text-transform:uppercase;
+}
+#prenota form input[type="submit"]:hover{
+	cursor:pointer;
+}
+/*FINE SEZIONE CONTENUTO PRINCIPALE*/
