@@ -1,8 +1,10 @@
+
 /* SEZIONE GENERALE*/
 
 * {
 	margin: 0;
 	padding: 0;
+	font:"Arial", Helvetica, Sans-serif;
 }
 .clearer {
 	clear:both;
@@ -93,22 +95,26 @@
 
 /*INIZIO SEZIONE CASELLA "PRENOTA"*/
 #prenota {
-	width: 60em;
+	width: 77%;
 	margin: 0 auto;
 	/*background-color:#3cf;*/
 	margin-bottom:0.5em;
-	margin-top:0.25em;
+	margin-top:0.5%;
 }
 #prenota form fieldset {
 	padding-top:0.3em;
 	background-color:#0084ff;
 	padding-bottom:0.44em;
 }
+#prenota form div {
+	float:left;
+	display:block;
+	min-width:32.5%;
+	max-width:97.4%;
+	background-color:#3cf;
+}
 #prenota form label {
 	height:3.5em;
-	width:7.5em;
-	margin-left:0.5em;
-	margin-right:0.25em;
 	/*sezione text*/
 	color:#ffe5bf;
 	line-height:2.5em;
@@ -118,14 +124,16 @@
 }
 #prenota form input[type="text"]{
 	height: 3em;
-	width:13em;
-	padding-left:0.4em;
+	min-width:50%;
+	max-width:99%;
 	background-color:#fff;
 	/*sezione text*/
 	color:#000000;
 	font-size:1.1em;
 }
 #prenota form input[type="text"]:hover {
+	min-width:49%;
+	max-width:99%;
 	border-color:#FF0;
 	background-color:#FFC;
 }
@@ -134,13 +142,8 @@
 	background-color:#FFE;
 }
 #prenota form button[type="submit"]{
-	display:block;
-	float:right;
-	margin-top:0.5em;
-	margin-right: 0.85em;
-	height: 5.1em;
-	width: 15em;
-	
+	margin-top:0.5%;
+	height: 5em;
 	
 }
 
@@ -149,10 +152,9 @@
 	background-color:#e4edf2;
 }
 #prenota form button[type="submit"] span {
-	
 	/*sezione text*/
 	text-transform:uppercase;
-	font-size:3.5em;
+	font-size:3em;
 	font-weight: bold;
 }
 
