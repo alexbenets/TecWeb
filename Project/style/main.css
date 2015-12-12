@@ -111,7 +111,7 @@
 	display:block;
 	min-width:35%;
 	max-width:98%;
-	background-color:#3cf;
+	/*background-color:#3cf;*/
 	margin-left:0.5%;
 }
 #prenota form .button_form {
@@ -185,6 +185,9 @@
 	display:block;
 	background-color:#ddd;
 }
+#secondo_menu a{
+	text-decoration: none;
+}
 #secondo_menu ul {
 	list-style:none;
 }
@@ -219,6 +222,9 @@
 	/*sezione testo*/
 	text-transform:uppercase;
 }
+#torna_su a{
+	text-decoration: none;
+}
 /*FINE SEZIONE "contenitore_sezioni"*/
 
 /*INIZIO "SEZIONE"*/
@@ -234,6 +240,57 @@
 .sezione p {
 }
 /*FINE "SEZIONE"*/
+
+/*INIZIO SEZIONE FORM*/
+.sezione form {
+	width:99%;
+	font-size:1em;
+	/*ho definito 1em per definire l'altezza relativa dei successivi contenitori*/
+	padding-left:1%;
+}
+.sezione form fieldset {
+	width:99%;
+	margin:0 auto;
+	border:none;
+}
+.sezione form fieldset div {
+	display:block;
+	min-height:3em;
+	line-height:3em;
+	width:100%;
+}
+
+.sezione form fieldset div label {
+	width:38%;
+	float:left;
+	display:block;
+	/*testo*/
+	font-size:1.5em;
+	text-transform:uppercase;
+}
+
+.sezione form fieldset div input {
+	width:61%;
+	height:2em;
+	float:left;
+	display:block;
+	font-size:1.5em;
+}
+
+.sezione form fieldset div button {
+	height:5em;
+	float:right;
+	background-color:#FFE;
+}
+.sezione form fieldset div button:hover, .sezione form fieldset div button *:hover {
+	cursor:pointer;
+	background-color:#e4edf2;
+}
+
+.sezione form fieldset div button span {
+	font-size:3em;
+}
+/*FINE SEZIONE FORM*/
 
 /*INIZIO SEZIONE NEWS*/
 #news {
@@ -295,6 +352,9 @@
 	position:absolute;
 	bottom:0.5em;
 	right:1em;
+}
+#sitemap a{
+	text-decoration: none;
 }
 #gruppo {
 	margin:0 auto;
