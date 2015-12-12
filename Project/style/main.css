@@ -151,7 +151,7 @@
 }
 #prenota form button[type="submit"]{
 	margin-top:0.5%;
-	
+	padding-bottom:0.1em;
 	font-size:1em;
 	height: 3.8em;
 	width:99%;
