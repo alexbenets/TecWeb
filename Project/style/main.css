@@ -151,7 +151,9 @@
 }
 #prenota form button[type="submit"]{
 	margin-top:0.5%;
-	height: 5em;
+	
+	font-size:1em;
+	height: 3.8em;
 	width:99%;
 }
 
@@ -163,6 +165,7 @@
 	/*sezione text*/
 	text-transform:uppercase;
 	font-size:3em;
+	line-height:1em;
 	font-weight: bold;
 }
 
