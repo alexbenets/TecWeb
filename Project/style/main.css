@@ -103,7 +103,7 @@
 }
 #prenota form fieldset {
 	padding-top:0.3em;
-	background-color:#0084ff;
+	background-color:#92D4FF;
 	padding-bottom:0.44em;
 }
 #prenota form .casella_form {
@@ -126,7 +126,7 @@
 	max-width:99%;
 	
 	/*sezione text*/
-	color:#ffe5bf;
+	color:#000;
 	line-height:2.5em;
 	font-size:1.5em;
 	font-weight: bold;
@@ -145,6 +145,19 @@
 	border-color:#FF0;
 	background-color:#FFC;
 }
+
+#prenota form .casella_AR {
+	display:block;
+	margin-left:0.5%;
+}
+
+#prenota form input[type="checkbox"]{
+	width:2em;
+	height:2em;
+	border:1px solid #000;
+	background-color:#000;
+}
+
 #prenota form button, #prenota form button * {
 
 	background-color:#FFE;
@@ -243,21 +256,30 @@
 
 /*INIZIO SEZIONE FORM*/
 .sezione form {
+	margin-top:2em;
 	width:99%;
 	font-size:1em;
 	/*ho definito 1em per definire l'altezza relativa dei successivi contenitori*/
 	padding-left:1%;
+	margin-bottom:2em;
 }
 .sezione form fieldset {
-	width:99%;
+	width:70%;
 	margin:0 auto;
 	border:none;
 }
 .sezione form fieldset div {
 	display:block;
-	min-height:3em;
-	line-height:3em;
+	min-height:2em;
+	line-height:2em;
 	width:100%;
+}
+
+.sezione form fieldset div h3 {
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	/*sezione testo*/
+	font-size:2em;
 }
 
 .sezione form fieldset div label {
@@ -289,7 +311,10 @@
 
 .sezione form fieldset div button span {
 	font-size:3em;
+	text-transform:uppercase;
+	margin:0.2em;
 }
+
 /*FINE SEZIONE FORM*/
 
 /*INIZIO SEZIONE NEWS*/
